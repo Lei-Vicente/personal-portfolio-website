@@ -182,7 +182,7 @@ export const ProjectPreview: React.FC<ProjectPreviewProps> = ({
               decoding="async"
             />
           </div>
-        ) : interactive && project.demoUrl ? (
+        ) : (interactive || !project.coverImage) && project.demoUrl ? (
           <div className="relative w-full h-full overflow-hidden bg-white">
             {/* Loading Indicator */}
             {isIframeLoading && (

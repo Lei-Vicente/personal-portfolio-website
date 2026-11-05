@@ -122,7 +122,7 @@ export const projectsData: Project[] = [
       'Role-Based Access Control (RBAC)',
       'Relational Data Modeling',
     ],
-    demoUrl: undefined,
+    demoUrl: 'https://practi-sync.vercel.app/',
     repoUrl: undefined,
     visibility: 'public',
     accentColor: '#6366F1',
