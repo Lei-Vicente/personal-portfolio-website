@@ -29,6 +29,8 @@
   body {
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE / Edge */
+    letter-spacing: 0.015em;
+    word-spacing: 0.05em;
     @apply bg-background-light dark:bg-background-dark text-foreground-light dark:text-foreground-dark font-sans selection:bg-accent-light/20 dark:selection:bg-accent-dark/30 selection:text-accent-light dark:selection:text-accent-dark;
   }
 

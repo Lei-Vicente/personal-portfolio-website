@@ -85,7 +85,7 @@ export const ContactSection: React.FC = () => {
             Let's build something reliable together.
           </h2>
 
-          <p className="text-base sm:text-lg text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed">
+          <p className="text-base sm:text-lg text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed tracking-wide [word-spacing:0.12em]">
             Interested in discussing an engineering role, technical collaboration, or project architecture? Reach out through any of the channels below.
           </p>
         </div>
@@ -126,7 +126,7 @@ export const ContactSection: React.FC = () => {
                 >
                   {profileData.email}
                 </a>
-                <p className="text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed pt-1">
+                <p className="text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed tracking-wide [word-spacing:0.12em] pt-1">
                   Direct line for engineering recruiters, hiring managers, and collaborative opportunities.
                 </p>
               </div>
@@ -205,8 +205,20 @@ export const ContactSection: React.FC = () => {
             </div>
 
             <div className="pt-6 border-t border-border-light dark:border-border-dark mt-8">
-              <p className="text-xs sm:text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed">
-                Open to <strong className="text-foreground-light dark:text-foreground-dark font-semibold">On-Site</strong>, <strong className="text-foreground-light dark:text-foreground-dark font-semibold">Hybrid</strong>, and <strong className="text-foreground-light dark:text-foreground-dark font-semibold">Remote</strong> full-stack software development roles.
+              <p className="text-xs sm:text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed tracking-wide [word-spacing:0.2em]">
+                Open to{' '}
+                <strong className="text-foreground-light dark:text-foreground-dark font-semibold">
+                  On-Site
+                </strong>
+                ,{' '}
+                <strong className="text-foreground-light dark:text-foreground-dark font-semibold">
+                  Hybrid
+                </strong>
+                , and{' '}
+                <strong className="text-foreground-light dark:text-foreground-dark font-semibold">
+                  Remote
+                </strong>{' '}
+                full-stack software development roles.
               </p>
             </div>
           </div>
@@ -234,7 +246,7 @@ export const ContactSection: React.FC = () => {
                   <h3 className="text-lg font-bold text-foreground-light dark:text-foreground-dark group-hover/link:text-blue-600 dark:group-hover/link:text-blue-400 transition-colors leading-snug">
                     Connect on LinkedIn
                   </h3>
-                  <p className="text-xs sm:text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed pt-1">
+                  <p className="text-xs sm:text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed tracking-wide [word-spacing:0.12em] pt-1">
                     Career trajectory, professional connections, and industry endorsements.
                   </p>
                 </div>
@@ -269,7 +281,7 @@ export const ContactSection: React.FC = () => {
                 <h3 className="text-lg font-bold text-foreground-light dark:text-foreground-dark group-hover/github:text-accent-light dark:group-hover/github:text-accent-dark transition-colors leading-snug">
                   Explore GitHub
                 </h3>
-                <p className="text-xs sm:text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed pt-1">
+                <p className="text-xs sm:text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed tracking-wide [word-spacing:0.12em] pt-1">
                   Production repositories, system architectures, and commit activity.
                 </p>
               </div>
@@ -303,7 +315,7 @@ export const ContactSection: React.FC = () => {
                 <h3 className="text-lg font-bold text-foreground-light dark:text-foreground-dark group-hover/resume:text-emerald-600 dark:group-hover/resume:text-emerald-400 transition-colors leading-snug">
                   Download Resume
                 </h3>
-                <p className="text-xs sm:text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed pt-1">
+                <p className="text-xs sm:text-sm text-foreground-muted-light dark:text-foreground-muted-dark leading-relaxed tracking-wide [word-spacing:0.12em] pt-1">
                   Official technical resume formatted for technical recruiters and ATS parsing.
                 </p>
               </div>
