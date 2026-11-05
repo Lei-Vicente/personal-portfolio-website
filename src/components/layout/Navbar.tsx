@@ -335,7 +335,7 @@ export const Navbar: React.FC = () => {
             rel="noopener noreferrer"
             title="View Resume (PDF)"
             aria-label="View Leibern Vicente's resume in a new tab"
-            className="hidden sm:inline-flex items-center justify-center gap-1.5 px-4.5 sm:px-5 py-2 sm:py-2.5 rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-950 text-sm font-semibold hover:bg-slate-800 dark:hover:bg-neutral-200 transition-colors shadow-sm focus-visible:ring-2 focus-visible:ring-accent-light dark:focus-visible:ring-accent-dark whitespace-nowrap shrink-0 group"
+            className="hidden sm:inline-flex items-center justify-center gap-1.5 px-4.5 sm:px-5 py-2 sm:py-2.5 rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-950 text-sm font-semibold hover:bg-slate-800 dark:hover:bg-slate-200 transition-colors shadow-sm focus-visible:ring-2 focus-visible:ring-accent-light dark:focus-visible:ring-accent-dark whitespace-nowrap shrink-0 group"
           >
             <span>Resume</span>
             <ArrowUpRight className="w-3.5 h-3.5 text-slate-400 dark:text-slate-500 group-hover:text-white dark:group-hover:text-slate-950 transition-colors" />
@@ -383,7 +383,7 @@ export const Navbar: React.FC = () => {
                 onClick={() => setIsOpen(false)}
                 title="View Resume (PDF)"
                 aria-label="View Leibern Vicente's resume in a new tab"
-                className="flex items-center justify-center gap-1.5 w-full px-4 py-2.5 text-sm font-semibold rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-950 hover:bg-slate-800 dark:hover:bg-neutral-200 transition-colors shadow-sm"
+                className="flex items-center justify-center gap-1.5 w-full px-4 py-2.5 text-sm font-semibold rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-950 hover:bg-slate-800 dark:hover:bg-slate-200 transition-colors shadow-sm"
               >
                 <span>View Resume</span>
                 <ArrowUpRight className="w-3.5 h-3.5 text-slate-400 dark:text-slate-500" />

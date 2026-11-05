@@ -43,7 +43,7 @@ export const ProjectDetailPage: React.FC = () => {
         </p>
         <Link
           to="/#projects"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-gray-900 font-medium text-sm shadow-sm"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-slate-950 font-medium text-sm shadow-sm"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Return to Projects</span>
@@ -101,7 +101,7 @@ export const ProjectDetailPage: React.FC = () => {
                 href={project.demoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-gray-900 font-medium text-sm sm:text-base hover:bg-accent-hover-light dark:hover:bg-accent-hover-dark transition-colors shadow-sm"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-slate-950 font-medium text-sm sm:text-base hover:bg-accent-hover-light dark:hover:bg-accent-hover-dark transition-colors shadow-sm"
               >
                 <span>Launch Live Demo</span>
                 <ExternalLink className="w-4 h-4" />
@@ -402,7 +402,7 @@ export const ProjectDetailPage: React.FC = () => {
                       href={project.demoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-gray-900 font-medium text-xs shadow-sm hover:bg-accent-hover-light dark:hover:bg-accent-hover-dark transition-colors"
+                      className="flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-slate-950 font-medium text-xs shadow-sm hover:bg-accent-hover-light dark:hover:bg-accent-hover-dark transition-colors"
                     >
                       <span>Visit Live Demo</span>
                       <ExternalLink className="w-3.5 h-3.5" />

@@ -25,9 +25,9 @@
 
 | Project | Role / Scope | Primary Stack | Live Demo / Preview |
 | :--- | :--- | :--- | :--- |
-| **FinanceOS** | Full-Stack Developer | Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma, Recharts | [Live Preview](https://finance-management-system-orpin.vercel.app/) |
-| **Sales Reimbursement System** | Full-Stack Developer (Feature Dev & Maintenance) | Next.js, React, Tailwind CSS, TypeScript, PostgreSQL, Prisma | [Live Preview](https://property-owner-monthly-dues-manage.vercel.app/) |
-| **PractiSync** | Lead Architect (RTU Capstone) | React, Node.js, Express.js, PostgreSQL, Tailwind CSS | System Architecture Blueprint |
+| **FinanceOS** | Full-Stack Developer | React 19, TypeScript, Tailwind CSS, Vite, Express.js, PostgreSQL (Docker) | [Live Preview](https://personal-financial-management-syste-six.vercel.app/) |
+| **Sales Reimbursement System** | Full-Stack Developer (Feature Dev & Maintenance) | Next.js, TypeScript, Tailwind CSS, Prisma ORM, PostgreSQL, Playwright | [Live Preview](https://sales-reimbursment-system.vercel.app/) |
+| **PractiSync** | Lead Architect (RTU Capstone) | Next.js / React, TypeScript, Tailwind CSS, Prisma ORM, RBAC | System Architecture Blueprint |
 
 ---
 

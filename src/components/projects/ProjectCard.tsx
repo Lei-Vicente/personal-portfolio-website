@@ -58,7 +58,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               href={project.demoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-950 hover:bg-slate-800 dark:hover:bg-neutral-200 transition-colors shadow-xs focus-visible:ring-2 focus-visible:ring-accent-light dark:focus-visible:ring-accent-dark"
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-950 hover:bg-slate-800 dark:hover:bg-slate-200 transition-colors shadow-xs focus-visible:ring-2 focus-visible:ring-accent-light dark:focus-visible:ring-accent-dark"
               aria-label={`Open Live Demo for ${project.name}`}
             >
               <span>Launch</span>

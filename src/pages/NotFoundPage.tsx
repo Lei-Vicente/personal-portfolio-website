@@ -19,7 +19,7 @@ export const NotFoundPage: React.FC = () => {
         <div className="flex flex-wrap items-center justify-center gap-3">
           <Link
             to="/#home"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-gray-900 font-medium text-sm hover:bg-accent-hover-light dark:hover:bg-accent-hover-dark transition-colors shadow-sm"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-slate-950 font-medium text-sm hover:bg-accent-hover-light dark:hover:bg-accent-hover-dark transition-colors shadow-sm"
           >
             <Home className="w-4 h-4" />
             <span>Go to Homepage</span>

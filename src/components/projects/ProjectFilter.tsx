@@ -34,7 +34,7 @@ export const ProjectFilter: React.FC<ProjectFilterProps> = ({
             aria-pressed={isActive}
             className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs sm:text-sm font-medium rounded-lg transition-all duration-150 focus-visible:ring-2 focus-visible:ring-accent-light dark:focus-visible:ring-accent-dark ${
               isActive
-                ? 'bg-accent-light text-white dark:bg-accent-dark dark:text-gray-900 shadow-sm'
+                ? 'bg-accent-light text-white dark:bg-accent-dark dark:text-slate-950 shadow-sm'
                 : 'bg-surface-subtle-light dark:bg-surface-subtle-dark text-foreground-muted-light dark:text-foreground-muted-dark hover:text-foreground-light dark:hover:text-foreground-dark border border-border-light dark:border-border-dark'
             }`}
           >
@@ -42,7 +42,7 @@ export const ProjectFilter: React.FC<ProjectFilterProps> = ({
             <span
               className={`text-[11px] font-mono px-1.5 py-0.2 rounded-full ${
                 isActive
-                  ? 'bg-white/20 dark:bg-black/20 text-white dark:text-gray-900'
+                  ? 'bg-white/20 dark:bg-black/20 text-white dark:text-slate-950'
                   : 'bg-border-light dark:bg-border-dark text-foreground-muted-light dark:text-foreground-muted-dark'
               }`}
             >

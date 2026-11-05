@@ -52,7 +52,7 @@ export const HeroSection: React.FC = () => {
             <div className="flex flex-wrap items-center gap-4 w-full sm:w-auto">
               <a
                 href="#projects"
-                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-gray-900 font-medium text-sm sm:text-base hover:bg-accent-hover-light dark:hover:bg-accent-hover-dark transition-all duration-150 shadow-sm focus-visible:ring-2 focus-visible:ring-accent-light"
+                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-accent-light text-white dark:bg-accent-dark dark:text-slate-950 font-medium text-sm sm:text-base hover:bg-accent-hover-light dark:hover:bg-accent-hover-dark transition-all duration-150 shadow-sm focus-visible:ring-2 focus-visible:ring-accent-light"
               >
                 <span>View Projects</span>
                 <ArrowDown className="w-4 h-4" />
