@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leibern R. Vicente | Full-Stack Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Explore the projects, technical skills, education, and experience of Leibern R. Vicente, a graduating BS Information Technology student focused on Full-Stack Development."
+    />
+    <meta name="author" content="Leibern R. Vicente" />
+    <meta name="theme-color" content="#0B1120" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#F8FAFC" media="(prefers-color-scheme: light)" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Leibern R. Vicente | Full-Stack Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore the projects, technical skills, education, and experience of Leibern R. Vicente, a graduating BS Information Technology student focused on Full-Stack Development."
+    />
+    <meta property="og:locale" content="en_PH" />
+
+    <!-- Monogram SVG Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234F46E5'/%3E%3Ctext x='16' y='22' font-family='system-ui, -apple-system, sans-serif' font-weight='700' font-size='15' text-anchor='middle' fill='%23FFFFFF'%3ELV%3C/text%3E%3C/svg%3E"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Theme initialization script (prevents flash of wrong theme) -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Schema.org Person metadata -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Leibern R. Vicente",
+        "alternateName": "Leibern Vicente",
+        "jobTitle": "Full-Stack Developer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mandaluyong City",
+          "addressCountry": "Philippines"
+        },
+        "email": "mailto:leivcnt01@gmail.com",
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "Rizal Technological University"
+        },
+        "sameAs": [
+          "https://github.com/Lei-Vicente"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-background-light dark:bg-background-dark text-foreground-light dark:text-foreground-dark transition-colors duration-200 antialiased selection:bg-accent-light/20 dark:selection:bg-accent-dark/30 selection:text-accent-light dark:selection:text-accent-dark min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
