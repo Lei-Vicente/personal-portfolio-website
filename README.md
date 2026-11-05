@@ -50,8 +50,8 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Lei-Vicente/portfolio-website-2.0.git
-   cd portfolio-website-2.0
+   git clone https://github.com/Lei-Vicente/personal-portfolio-website.git
+   cd personal-portfolio-website
    ```
 
 2. **Install dependencies**:
